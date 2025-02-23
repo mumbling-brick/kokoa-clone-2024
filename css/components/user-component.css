@@ -1,9 +1,12 @@
 .user-component {
     display: flex;
+    justify-content: space-between;
 }
 
-.user-component__column:first-chilld {
+.user-component,
+.user-component__column:first-child {
     display: flex;
+    align-items: center;
 }
 
 .user-component__avatar {
